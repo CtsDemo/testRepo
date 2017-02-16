@@ -10,7 +10,7 @@ Database Driver: MySQL Connector Java mysql-connector-java-5.1.31 ( Revision: al
 /* UPDATE DDL */
 /* DROP AND CREATE DDL */
 /* WARNING: The DDL commented out below will drop and re-create all tables.
-    drop table if exists `devopscdt`;
+    drop table if exists `devopscdt`;*/
 
     create table `devopscdt` (
         `id` integer not null auto_increment,
@@ -18,4 +18,4 @@ Database Driver: MySQL Connector Java mysql-connector-java-5.1.31 ( Revision: al
         `lastname` varchar(255),
         primary key (`id`)
     ) ENGINE=InnoDB;
-*/
+/**/
