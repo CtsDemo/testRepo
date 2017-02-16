@@ -21,11 +21,15 @@
             <globalIdMap>
                 <item>
                     <type>datatype</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>{urn:com:appian:types}DevOpsCDT</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>dataStore</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_a-0000de5f-7bd3-8000-3120-01ef9001ef90_3843</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>user</type>
@@ -243,4 +247,4 @@
             </role>
         </contentRoleMap>
     </roleMap>
-</applicationHaul><!--updated on 2017-02-16T15:45:48.718-->
+</applicationHaul><!--updated on 2017-02-16T16:28:27.557-->
