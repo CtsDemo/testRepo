@@ -7,9 +7,15 @@
         <dataSourceKey>jdbc/AppianBusinessDS</dataSourceKey>
         <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
         <autoUpdateSchema>false</autoUpdateSchema>
-        <entities/>
+        <entities>
+            <entity>
+                <uuid>f712d8a8-c920-4479-aa53-bb255bff7211</uuid>
+                <name>DevOps</name>
+                <type>{urn:com:appian:types}DevOpsCDT</type>
+            </entity>
+        </entities>
     </dataStore>
-    <isPublished>false</isPublished>
+    <isPublished>true</isPublished>
     <roleMap>
         <role inherit="false" allowForAll="false" name="administrators">
             <users/>
