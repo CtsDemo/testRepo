@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <dataStore>
-        <uuid>_a-0000de5f-7bd3-8000-3120-01ef9001ef90_3843</uuid>
-        <name>DevOpsDS</name>
+        <uuid>_a-0000de95-ddcf-8000-3120-01ef9001ef90_4268</uuid>
+        <name>TestDS3</name>
         <description></description>
         <dataSourceKey>jdbc/AppianBusinessDS</dataSourceKey>
         <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
-        <autoUpdateSchema>false</autoUpdateSchema>
+        <autoUpdateSchema>true</autoUpdateSchema>
         <entities>
             <entity>
-                <uuid>f712d8a8-c920-4479-aa53-bb255bff7211</uuid>
-                <name>DevOps</name>
-                <type>{urn:com:appian:types}DevOpsCDT</type>
+                <uuid>ffc5650f-a759-4474-adba-8b961e57fbc7</uuid>
+                <name>cdt3</name>
+                <type>{urn:com:appian:types}TestCDT3</type>
             </entity>
         </entities>
     </dataStore>
